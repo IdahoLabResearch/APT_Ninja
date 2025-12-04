@@ -8,7 +8,8 @@ The workflow leverages YOLOv11 model to transform 3D atomic point clouds into 2D
 ## 🧩 1. Introduction
 
 Traditional APT clustering relies on distance-based or density-based methods, which can be sensitive to parameter selection and computationally expensive for large datasets.
-**APT Ninja** introduces an **image-based approach** to APT data interpretation, enabling efficient processing, intuitive visualization, and the integration of modern computer vision techniques.
+**APT Ninja** introduces an **image-based approach** to APT data interpretation, enabling efficient processing, intuitive visualization, and the integration of modern computer vision techniques.  The benefit of this approach is 
+speed and accuracy; this compute vision approach outperforms HDBSCAN by as much as two orders of magnitude.
 
 The workflow consists of the following key steps:
 
